@@ -1,0 +1,16 @@
+package ex03;
+/*
+ * 수동 형변환 or 강제 형변환
+ * 큰 자료형 -> 작은 자료형 대입한다.
+ */
+public class 캐스트형변환 {
+
+	public static void main(String[] args) {
+		
+		short s1 = 32767;
+		
+		System.out.println(s1+1);
+
+	}
+
+}

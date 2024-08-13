@@ -1,0 +1,30 @@
+package ex02;
+
+import java.util.Scanner;
+
+public class AAA {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+//		int c = sc.nextInt();
+//		
+//		System.out.println(a + " : " + b +  " : " + " : " + c);
+		
+		int korScore = sc.nextInt();
+		int engScore = sc.nextInt();
+		int mathScore = sc.nextInt();
+		
+		System.out.println(korScore + " : " + engScore +  " : " + " : " + mathScore);
+		
+		float f1 = 2147483648f;
+		System.out.println(f1);
+		float f2 = 2147483658f;
+		System.out.println(f2);
+
+	}
+
+}
