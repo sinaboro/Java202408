@@ -1,0 +1,10 @@
+package ex04;
+
+public class 중괄호블럭 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
