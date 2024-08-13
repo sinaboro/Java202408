@@ -32,11 +32,6 @@ public class 캐스트형변환 {
 		System.out.println(d2);		
 		System.out.println(str1);
 		
-		System.out.println(d2);		
-		System.out.println(str1);
-		
-		System.out.println(d2);		
-		System.out.println(str1);
 	}
 
 }
