@@ -49,12 +49,18 @@ public class 중괄호블럭 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		String line = sc.nextLine(); //아무거나 입력 가능
+//		String line = sc.nextLine(); //아무거나 입력 가능
+//		
+//		System.out.println(line);
+//		
+//		int number = sc.nextInt(); //정수만 입력 가능
+//		System.out.println(number);
 		
-		System.out.println(line);
+		char num3 = 65;
+		char num4 = 65;
+		System.out.printf("%c %c\n", num3 , num4);
 		
-		int number = sc.nextInt(); //정수만 입력 가능
-		System.out.println(number);
+		System.out.println((char)(30  +   67));
 		
 	}
 
