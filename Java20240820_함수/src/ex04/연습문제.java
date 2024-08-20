@@ -17,16 +17,21 @@ public class 연습문제 {
 		while(flag) {
 			System.out.println("1.과목등록 | 2.과목목록보기 | 3.종료");
 			System.out.println("번호입력>>");
-			int num = Integer.parseInt(sc.nextLine());			
+			
+			//int num = Integer.parseInt(sc.nextLine());
+			int num = sc.nextInt();			
+			sc.nextLine();  //엔터제거
+			
 			switch(num) {
 			case 1:
 				System.out.println("과목명입력>>");
 				name[index++] = sc.nextLine();
+				//name[index] = sc.nextLine();
+				//index++;
 				break;
 			case 2:
-				for(int i=0; i<index; i++) {					
-						System.out.print(name[i] + ", ");
-				}
+				for(int i=0; i<index; i++) 					
+					System.out.print(name[i] + ", ");				
 				System.out.println();
 				break;
 			case 3:
