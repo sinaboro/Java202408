@@ -1,11 +1,10 @@
 package ex01;
 
-import java.util.Scanner;
-
 public class FunctionEx01 {
 
 	public static void main(String[] args) {
-		 func1();//함수 호출
+	
+		func1();//함수(메소드) 호출
 		 
 		 func2(11);
 		 
@@ -34,7 +33,8 @@ public class FunctionEx01 {
 	
    //      void :반환타입 , 함수명:func1, 매개변수:()	
 	static void func1() {  //함수
-		System.out.println("매개변수(함수에게 값입력하지 않는다) , 반환타입 없는 함수!");
+		System.out.println("매개변수(함수에게 값입력하지 않는다) , "
+				+ "반환타입 없는 함수!");
 	}	
 
 }
