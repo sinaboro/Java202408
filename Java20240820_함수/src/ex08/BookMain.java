@@ -16,12 +16,13 @@ package ex08;
 public class BookMain {
 
 	public static void main(String[] args) {
-		Book 자바 = new Book();
-		
+	
+		Book 자바 = new Book();		
 		자바.제목 = "이것이 자바다";
 		자바.저자 = "신용균";
 		자바.가격 = 25000;
 		자바.재고수량 = 100;
+		
 		자바.판매(50);
 		자바.입고(30);
 		자바.판매(20);

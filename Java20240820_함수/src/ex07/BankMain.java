@@ -16,6 +16,7 @@ package ex07;
 public class BankMain {
 
 	public static void main(String[] args) {
+		
 		BankClass b1 = new BankClass();
 		
 		b1.계좌번호 = "111-2222-3333";
