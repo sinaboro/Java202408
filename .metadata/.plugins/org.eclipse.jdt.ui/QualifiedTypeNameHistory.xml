@@ -6,8 +6,9 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
-    <fullyQualifiedTypeName name="ex06.Student"/>
     <fullyQualifiedTypeName name="ex07.BankClass"/>
     <fullyQualifiedTypeName name="ex08.Book"/>
     <fullyQualifiedTypeName name="ex08.BookMain"/>
+    <fullyQualifiedTypeName name="ex02.Student"/>
+    <fullyQualifiedTypeName name="ex06.Student"/>
 </qualifiedTypeNameHistroy>
