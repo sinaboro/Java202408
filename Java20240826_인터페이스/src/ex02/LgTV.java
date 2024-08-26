@@ -28,7 +28,6 @@ public class LgTV implements TV{
 	      if (sound <0)
 	         sound = 0;
 	}
-	
-	
+
 	
 }
