@@ -9,6 +9,21 @@
     <fullyQualifiedTypeName name="ex07.BankClass"/>
     <fullyQualifiedTypeName name="ex08.Book"/>
     <fullyQualifiedTypeName name="ex08.BookMain"/>
-    <fullyQualifiedTypeName name="ex02.Student"/>
     <fullyQualifiedTypeName name="ex06.Student"/>
+    <fullyQualifiedTypeName name="ex01.Person"/>
+    <fullyQualifiedTypeName name="ex01.Student"/>
+    <fullyQualifiedTypeName name="ex01.SalesMan"/>
+    <fullyQualifiedTypeName name="ex02.Student"/>
+    <fullyQualifiedTypeName name="ex03.Student"/>
+    <fullyQualifiedTypeName name="ex03.PartTimeStudent"/>
+    <fullyQualifiedTypeName name="ex04.Person"/>
+    <fullyQualifiedTypeName name="ex04.Student"/>
+    <fullyQualifiedTypeName name="ex04.PartTimeStudent"/>
+    <fullyQualifiedTypeName name="ex05.Person"/>
+    <fullyQualifiedTypeName name="ex05.Student"/>
+    <fullyQualifiedTypeName name="ex05.PartTimeStudent"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="ex06.Car"/>
+    <fullyQualifiedTypeName name="ex06.Vehicle"/>
+    <fullyQualifiedTypeName name="ex06.Truck"/>
 </qualifiedTypeNameHistroy>
