@@ -36,11 +36,11 @@ public class MobileTest {
 				mobile.getMobileName(),
 				mobile.getBatterySize(),
 				mobile.getOsType()
-		);
-		System.out.println();
+		);		
 	}
 	
 	public static void printTitle() {
+		System.out.println("\n");
 		System.out.println("     Mobile	     Battery	     OS");
 		System.out.println("---------------------------------------------");
 	}
