@@ -1,6 +1,6 @@
 package test;
 
-public class SaleTV extends TV implements Rentable{
+public class SaleTV extends TV {
 
 	private int price;
 	
@@ -16,18 +16,12 @@ public class SaleTV extends TV implements Rentable{
 	}
 
 	public void sale() {
-		System.out.println(getModel()+"모델의 상품을 판매합니다. " + String.format("%,8d",price)+ "을 지불해 주세요.");
+		System.out.println(getModel()+"모델의 상품을 판매합니다. " + String.format("%,d",price)+ "을 지불해 주세요.");
 	}
 	
 	@Override
 	public String toString() {	
 		return "판매상품정보 : 모델명("+ getModel()+"), 가격("+ String.format("%,d",price) +"원), 크기("+getSize()+")";
-	}
-
-	@Override
-	public void rent() {
-		System.out.println(getModel()+"모델의 상품을 대여합니다. " + String.format("%,8d",price)+ "을 지불해 주세요.");
-		
-	}
+	}	
 
 }

@@ -26,7 +26,7 @@ public class RentalTV extends TV implements Rentable{
 
 	@Override
 	public void rent() {
-		System.out.println(getModel()+"모델의 상품을 대여합니다. " + String.format("%,8d",price)+ "을 지불해 주세요.");
+		System.out.println(getModel()+"모델의 상품을 대여합니다. " + String.format("%,d",price)+ "을 지불해 주세요.");
 		
 	}
 }

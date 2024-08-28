@@ -28,6 +28,9 @@ public class TVTest {
 	static void printAllTV(TV tv) {
 		System.out.println(tv.toString());		
 		
+		
+		//tv가 SaleTV를 참조하거나, SaleTV를 상속한 객체
+		//를 참조하니?
 		if(tv instanceof SaleTV sale) {
 			sale.play();
 			sale.sale();
