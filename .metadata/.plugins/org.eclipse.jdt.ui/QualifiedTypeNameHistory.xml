@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
-    <fullyQualifiedTypeName name="ex07.BankClass"/>
-    <fullyQualifiedTypeName name="ex08.Book"/>
-    <fullyQualifiedTypeName name="ex08.BookMain"/>
-    <fullyQualifiedTypeName name="ex06.Student"/>
-    <fullyQualifiedTypeName name="ex01.Person"/>
-    <fullyQualifiedTypeName name="ex01.Student"/>
-    <fullyQualifiedTypeName name="ex01.SalesMan"/>
-    <fullyQualifiedTypeName name="ex02.Student"/>
-    <fullyQualifiedTypeName name="ex03.Student"/>
-    <fullyQualifiedTypeName name="ex03.PartTimeStudent"/>
-    <fullyQualifiedTypeName name="ex04.Person"/>
     <fullyQualifiedTypeName name="ex04.Student"/>
     <fullyQualifiedTypeName name="ex04.PartTimeStudent"/>
     <fullyQualifiedTypeName name="ex05.Person"/>
@@ -43,7 +29,6 @@
     <fullyQualifiedTypeName name="ex03.CreditCardPayment"/>
     <fullyQualifiedTypeName name="ex03.CashPayment"/>
     <fullyQualifiedTypeName name="ex03.PayPalPayment"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.Throwable"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
@@ -53,11 +38,26 @@
     <fullyQualifiedTypeName name="test.SaleTV"/>
     <fullyQualifiedTypeName name="test.Rentable"/>
     <fullyQualifiedTypeName name="test.RentalTV"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.lang.IncompatibleClassChangeError"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="ex01.AppleBox"/>
+    <fullyQualifiedTypeName name="ex01.OrangeBox"/>
+    <fullyQualifiedTypeName name="ex01.Orange"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="ex02.Box"/>
+    <fullyQualifiedTypeName name="ex02.Apple"/>
+    <fullyQualifiedTypeName name="ex02.Orange"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ex03.Orange"/>
+    <fullyQualifiedTypeName name="ex03.Apple"/>
+    <fullyQualifiedTypeName name="ex04.Product"/>
+    <fullyQualifiedTypeName name="ex06.Box"/>
+    <fullyQualifiedTypeName name="java.lang.Number"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="ex10.Box"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="ex11.Box"/>
 </qualifiedTypeNameHistroy>
