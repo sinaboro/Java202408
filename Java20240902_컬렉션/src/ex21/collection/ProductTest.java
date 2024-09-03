@@ -23,7 +23,7 @@ public class ProductTest {
 	
 	static void addProduct(Product product) {
 	   if (products.contains(product)) {
-	        System.out.println("동일한 ID의 제품이 이미 저장되어 있습니다.");
+	        System.out.println("동일한 ID의 제품이 이미 저장되어 있습니다. -> " +product.getProductID());
 	   } else {
 		   products.add(product);
 	        System.out.println("성공적으로 저장되었습니다.");
