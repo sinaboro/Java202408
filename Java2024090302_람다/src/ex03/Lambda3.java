@@ -20,8 +20,6 @@ public class Lambda3 {
 	public static void main(String[] args) {
 
 		Printable p = msg -> System.out.println(msg);
-					
-		
 		p.print("이 문장 출력 요망!!");
 	}
 

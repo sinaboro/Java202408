@@ -7,11 +7,13 @@ class Outer {
 	
 	private int num=0;  //인스턴스 변수
 	
+	void func() {};
 	class Member{
 		void add(int n) { num = n; }
 		int get() { return num; }
 	}
 }
+
 
 public class MemberInnerClass {
 
@@ -20,6 +22,7 @@ public class MemberInnerClass {
 		Outer outer2 = new Outer();
 		
 		Outer.Member outer1M1 = outer1.new Member();
+		
 		Outer.Member outer2M2 = outer2.new Member();
 		
 		outer1M1.add(5);

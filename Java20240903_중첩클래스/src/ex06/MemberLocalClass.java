@@ -14,6 +14,7 @@ class Papers{
 	
 	public Printable getPrinter() {   //반환타입 : Printable -> Printable구현한 클래스만 반환한다.
 		
+		
 		class Printer implements Printable{  //멤버로컬클래스
 
 			@Override
@@ -23,6 +24,7 @@ class Papers{
 		}
 		
 		return new Printer();
+		
 	}
 }
 

@@ -7,6 +7,9 @@ interface Printable{
 	void print();
 }
 
+
+
+
 class Papers{
 	
 	private String message;
@@ -15,9 +18,8 @@ class Papers{
 	public Printable getPrinter() {   //반환타입 : Printable -> Printable구현한 클래스만 반환한다.
 		return new Printer();
 	}
-
-	private class Printer implements Printable{  //멤버이너클래스
-
+	
+	class Printer implements Printable{  //멤버이너클래스
 		@Override
 		public void print() {
 			System.out.println(message);
@@ -36,6 +38,8 @@ public class MemberInnerClass {
 		p.print();
 		
 	}
+	
+	
 }
 
 

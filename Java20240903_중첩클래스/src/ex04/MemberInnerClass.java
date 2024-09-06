@@ -30,7 +30,6 @@ public class MemberInnerClass {
 		
 		Network network = new Network();
 		network.message("이 문장을 전송해 주세요!!!");
-		
 	}
 }
 

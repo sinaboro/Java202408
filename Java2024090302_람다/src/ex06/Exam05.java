@@ -9,7 +9,9 @@ public class Exam05 {
 
 	public static void main(String[] args) {
 		
-		Supplier<Integer> supplier = () ->  (int)(Math.random()*100);
+		Supplier<Integer> supplier = () ->  {
+			return (int)(Math.random()*45);
+		};
 		
 		int result = supplier.get();
 		

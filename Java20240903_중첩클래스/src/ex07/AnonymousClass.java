@@ -5,6 +5,7 @@ package ex07;
  */
 interface Printable{
 	void print();
+	void print2();
 }
 
 
@@ -16,9 +17,9 @@ class Papers{
 	public Printable getPrinter() {   //반환타입 : Printable -> Printable구현한 클래스만 반환한다.
 		
 //		Printable p = 이 자리 올 수 있는 대상은? => Printable 구현 클래스만 올 수 있다.
-	
+
 		/*
-	   Printable p = 	new Printable(){
+		Printable printable = new Printable(){
 
 			@Override
 			public void print() {
@@ -26,14 +27,20 @@ class Papers{
 			}
 			
 		};
-		return p;
+		return printable;
 		*/
-		return new Printable(){  //익명 클래스
+		
+		return new Printable() {
 			@Override
 			public void print() {
 				System.out.println(message);
 			}
+			public void print2() {
+				System.out.println(message);
+			}
+			
 		};
+		
 	}
 }
 

@@ -1,5 +1,7 @@
 package ex01;
 
+import java.util.Random;
+
 class Outer {
 	private static int num;
 	

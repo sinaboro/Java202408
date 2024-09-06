@@ -21,7 +21,7 @@ public class Exam04 {
 		
 		int num=19;
 		
-		if(predicate2.test(num)) {
+		if(predicate.test(num)) {
 			System.out.println("짝수!");
 		}else {
 			System.out.println("홀수");
