@@ -6,6 +6,7 @@ public class MainApp {
 		
 		System.out.println("프로그램을 시작합니다!");
 		
+		
 		Menu menu = MainMenu.getInstance();  //메뉴 메뉴를 가져옴
 		
 		while(menu != null) {  //메뉴가 있으면 반복
