@@ -33,9 +33,20 @@ public class AdminMenu extends AbstractMenu{
 			case "2":
 				printAllMovies();  //영화 목록 출력
 				return this;
+			case "3":
+				deleteMovie();
+				return this;
 			case "b": return prevMenu;
 			default : return this;
 		}
+	}
+
+	private void deleteMovie() {
+		printAllMovies();           //전체 목록 출력한다.
+		System.out.println("삭제할 영화를 ID값을 입력하세요: ");   //1725842136 입력
+		Movie.delete(sc.nextLine());     // Movie.delete(1725842136); --> 함수 호출
+		
+		System.out.println(">> 삭제되었습니다.");
 	}
 
 	private void createMovies() {
