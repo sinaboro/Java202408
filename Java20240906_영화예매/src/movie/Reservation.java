@@ -117,6 +117,7 @@ public class Reservation {
 	//movieId(영화ID) 해당하는 예약 현황을 보여죠!
 	public static ArrayList<Reservation> findMovieId(String movieId) {
 		ArrayList<Reservation> reservations = new ArrayList<Reservation>();
+		
 		BufferedReader bf=null;;
 		String line = null;
 		try {
